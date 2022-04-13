@@ -1,4 +1,4 @@
-import  os
+import os
 
 folder_1 = 'settings', 'mainapp', 'adminapp', 'authapp'
 folder_2 = 'mu_project'
