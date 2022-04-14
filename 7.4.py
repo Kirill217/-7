@@ -28,6 +28,14 @@ for root, dirs, files in os.walk('./'):
 max_file = max(list_file)
 
 """ как дальше я не знаю((( """
+i = 1
+dict_1 = {}
 
+for _ in range(len(str(max_file))):
+    i *= 10
+    dict_1[i] = 0
 
+for file in list_file:
+    dict_1[10 ** len(str(max_file))] += 1
 
+print(dict_1)
